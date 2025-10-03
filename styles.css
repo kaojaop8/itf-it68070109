@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #e57d16;
+    color: white;
+}
+
+.container {
+    margin: 8px 32px;
+}
+
+#my-title {
+    color: rebeccapurple;
+}
