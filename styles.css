@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf7f0;
+    color: #333;
 }
 
 nav {
@@ -9,12 +14,54 @@ nav {
     padding: 0 16px;
     background-color: #e57d16;
     color: white;
+    height: 60px;
 }
 
 .container {
-    margin: 8px 32px;
+    margin: 24px 40px;
 }
 
-#my-title {
+h2#my-title {
     color: rebeccapurple;
+}
+
+section {
+    margin-top: 24px;
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+    margin: 6px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 220px;
+}
+
+button {
+    margin: 6px;
+    padding: 8px 14px;
+    background-color: #6a5acd;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #483d8b;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 10px;
 }
